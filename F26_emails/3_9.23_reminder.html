@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vinyl Tap - Meeting Reminder</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8dcc0;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #3b2a1a;
+  }
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fdf6e8;
+    border: 2px solid #8a5a2b;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px #e0c79a inset;
+  }
+  .header {
+    background-color: #3b2414;
+    color: #f2e4c4;
+    padding: 26px 30px 20px;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e0a83c;
+    text-shadow: 1px 1px 0 #1c1108;
+  }
+  .header p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #c99b5f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .rope-divider {
+    height: 7px;
+    background-image: repeating-linear-gradient(45deg, #8a5a2b 0, #8a5a2b 9px, #e0a83c 9px, #e0a83c 18px);
+  }
+  .content {
+    padding: 30px;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .meeting-box {
+    background-color: #f2e6cb;
+    border: 1px solid #d8bc85;
+    border-left: 5px solid #b5651d;
+    padding: 16px 20px;
+    margin: 22px 0;
+    border-radius: 2px;
+  }
+  .meeting-box strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 4px;
+    color: #6b3e1f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .theme-reveal {
+    text-align: center;
+    background-color: #3b2414;
+    border: 3px double #e0a83c;
+    padding: 22px 20px;
+    margin: 26px 0;
+  }
+  .theme-reveal .label {
+    display: block;
+    font-size: 13px;
+    color: #c99b5f;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .theme-reveal .theme-name {
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+    color: #e0a83c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #1c1108;
+  }
+  .calendar-links {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  a {
+    color: #a8541c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .qa-box {
+    background-color: #f2e6cb;
+    border-left: 4px solid #3b2414;
+    padding: 14px 20px;
+    margin: 18px 0;
+  }
+  .qa-box p {
+    margin: 6px 0;
+  }
+  .star-divider {
+    text-align: center;
+    color: #c99b5f;
+    letter-spacing: 10px;
+    font-size: 14px;
+    margin: 26px 0;
+  }
+  .footer {
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+    color: #8a6f4a;
+    background-color: #f2e6cb;
+    border-top: 2px solid #d8bc85;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Vinyl Tap Magazine</h1>
+      <p>Reminder: Third Meeting Tomorrow | 9/23</p>
+    </div>
+    <div class="rope-divider"></div>
+    <div class="content">
+      <p>Dear Vinyl Tappers,</p>
+      <p>Quick reminder that our third meeting is <b>tomorrow</b>! Here's what's on the agenda:</p>
+
+      <div class="meeting-box">
+        <strong>Meeting Info </strong>
+        Wednesday, September 23rd &#9733; 5:30&ndash;6:30 PM<br>
+        James Blair Hall, Room 201
+      </div>
+
+      <div class="meeting-box">
+        <strong>Meeting Agenda</strong>
+        <ul>
+          <li>When stamping will happen?</li>
+          <li>Big piece pitch presentation &mdash; we'll explain the print vs. web difference</li>
+          <li>Art sign-up and how submissions work</li>
+          <li>Photoshoots / visual vibe for the issue</li>
+        </ul>
+      </div>
+
+      <div class="star-divider">&#9733; &#9733; &#9733;</div>
+
+      <p>As a reminder, <strong>the application form to write an article for print or web is open!</strong> To have your article be considered for print, submit the form by <b>midnight this Friday, September 25th</b>.</p>
+
+      <p style="text-align: center;"><a href="https://forms.gle/LatnJSyExa5BkPndA" target="_blank">Fill Out the Story Pitch</a></p>
+
+      <div class="star-divider"> &#9733;</div> 
+
+      <p>Also, <strong>the sign up sheet for album reviews will open tomorrow at 6:30pm.</strong> I will send the link in the slack. </p>
+      
+      <p>How it works: It will be a google sheet (that you will be able to access with any email, not only @wm.edu). All you need to do is write the album/EP name and your name. <strong>It must be an album that has been released since March or April of this year.</strong> Only 15 album reviews will be accepted, and it is first come first serve. If the 15 rows fill up, you can put your name in the waiting list. </p>
+
+      <div class="star-divider">&#9733; &#9733; &#9733;</div>
+
+      <p>If you have any questions, feel free to reach out to me and/or the appropriate exec member.</p>
+
+      <p>See you all tomorrow!</p>
+      <p><strong>Vinyl Tap Executive Board</strong></p>
+    </div>
+    <div class="footer">Vinyl Tap Magazine</div>
+  </div>
+</body>
+</html>
