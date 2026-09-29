@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vinyl Tap - Meeting Reminder</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8dcc0;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #3b2a1a;
+  }
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fdf6e8;
+    border: 2px solid #8a5a2b;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px #e0c79a inset;
+  }
+  .header {
+    background-color: #3b2414;
+    color: #f2e4c4;
+    padding: 26px 30px 20px;
+    text-align: center;
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #e0a83c;
+    text-shadow: 1px 1px 0 #1c1108;
+  }
+  .header p {
+    margin: 8px 0 0;
+    font-size: 13px;
+    color: #c99b5f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .rope-divider {
+    height: 7px;
+    background-image: repeating-linear-gradient(45deg, #8a5a2b 0, #8a5a2b 9px, #e0a83c 9px, #e0a83c 18px);
+  }
+  .content {
+    padding: 30px;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .meeting-box {
+    background-color: #f2e6cb;
+    border: 1px solid #d8bc85;
+    border-left: 5px solid #b5651d;
+    padding: 16px 20px;
+    margin: 22px 0;
+    border-radius: 2px;
+  }
+  .meeting-box strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 4px;
+    color: #6b3e1f;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .theme-reveal {
+    text-align: center;
+    background-color: #3b2414;
+    border: 3px double #e0a83c;
+    padding: 22px 20px;
+    margin: 26px 0;
+  }
+  .theme-reveal .label {
+    display: block;
+    font-size: 13px;
+    color: #c99b5f;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .theme-reveal .theme-name {
+    display: block;
+    font-size: 21px;
+    font-weight: bold;
+    color: #e0a83c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0 #1c1108;
+  }
+  .theme-reveal .theme-name + .theme-name {
+    margin-top: 8px;
+  }
+  .calendar-links {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  a {
+    color: #a8541c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .qa-box {
+    background-color: #f2e6cb;
+    border-left: 4px solid #3b2414;
+    padding: 14px 20px;
+    margin: 18px 0;
+  }
+  .qa-box p {
+    margin: 6px 0;
+  }
+  .star-divider {
+    text-align: center;
+    color: #c99b5f;
+    letter-spacing: 10px;
+    font-size: 14px;
+    margin: 26px 0;
+  }
+  .footer {
+    text-align: center;
+    padding: 18px;
+    font-size: 13px;
+    color: #8a6f4a;
+    background-color: #f2e6cb;
+    border-top: 2px solid #d8bc85;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Vinyl Tap Magazine</h1>
+      <p>Reminder: Fourth Meeting Tomorrow | 9/30</p>
+    </div>
+    <div class="rope-divider"></div>
+    <div class="content">
+      <p>Dear Vinyl Tappers,</p>
+      <p>Quick reminder that our fourth meeting is <b>tomorrow</b>!</p>
+
+      <div class="meeting-box">
+        <strong>Meeting Info</strong>
+        Wednesday, September 30th &#9733; 5:30&ndash;6:30 PM<br>
+        James Blair Hall, Room 201
+      </div>
+
+      <div class="meeting-box">
+        <strong>Meeting Agenda</strong>
+        <ul>
+          <li>Artist sign-up for articles &mdash; it's first come, first served!</li>
+          <li>Vinyl Tap Jeopardy!</li>
+        </ul>
+      </div>
+
+      <p><strong>Stick around after meeting!</strong> We'll be taking a group walk to Wawa and Colonial Williamsburg &mdash; come along if you're interested in getting to know more people in the club!</p>
+
+      <div class="theme-reveal">
+        <span class="label">The Jeopardy categories are&hellip;</span>
+        <span class="theme-name">Too Niche For Letterboxd</span>
+        <span class="theme-name">Who Said This?</span>
+        <span class="theme-name">Finish The Lyric</span>
+        <span class="theme-name">Vinyl Tap Trivia</span>
+        <span class="theme-name">???</span>
+      </div>
+
+      <div class="star-divider">&#9733; &#9733; &#9733;</div>
+
+      <p><strong>Writers:</strong> everyone who submitted a story pitch has been reached out to on Slack. If you submitted a pitch and haven't heard from us, check your Slack messages or reach out to an exec member.</p>
+
+      <div class="star-divider">&#9733; &#9733; &#9733;</div>
+
+      <p><strong>Our photoshoot will be after fall break!</strong> If you're interested in modeling, taking photos, or helping with creative direction, fill out the form below.</p>
+
+      <p style="text-align: center;"><a href="https://forms.gle/uJBnB9v3DyCWb4yL7" target="_blank">Models, Photographers &amp; Creative Direction Form</a></p>
+
+      <div class="star-divider">&#9733; &#9733; &#9733;</div>
+
+      <p>If you have any questions, feel free to reach out to me and/or the appropriate exec member.</p>
+
+      <p>Make sure you follow us on <a href="https://www.instagram.com/vinyltapmag/" target="_blank">Instagram</a>!</p>
+
+      <p>See you all tomorrow!</p>
+      <p style="margin-bottom: 4px;"><strong>Vinyl Tap Executive Board</strong></p>
+      <p style="margin-top: 0; font-size: 14px; line-height: 1.7; color: #6b3e1f;">
+        <b>Editor in Chief:</b> Ilias Papageorgiou<br>
+        <b>Design Editors:</b> Ben Giles &amp; Tiba Alnaqshabandi<br>
+        <b>Photo Editor:</b> Rebecca Graber<br>
+        <b>Copy Editors:</b> Natalie Jacob &amp; Ella Provisero<br>
+        <b>Art Editor:</b> Andrew Timberlake<br>
+        <b>Web Editors:</b> Isa Mcmillan &amp; Katie Erceg<br>
+        <b>Social Chair:</b> Evelyn Parsonage<br>
+        <b>Media, Marketing, &amp; Merch Chairs:</b> Elena Garcia &amp; Lolo Kincel
+      </p>
+    </div>
+    <div class="footer">Vinyl Tap Magazine</div>
+  </div>
+</body>
+</html>
